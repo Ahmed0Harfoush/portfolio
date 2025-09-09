@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Harfoush - Portfolio</title>
+  <link rel="icon" type="Image/jpeg" href="Image/icon.jpeg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; background-color: #0d1117; color: #c9d1d9; }
+    .container { max-width: 1200px; margin: auto; padding: 2rem; }
+    .section { padding-top: 4rem; padding-bottom: 4rem; }
+  </style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="relative bg-gradient-to-r from-[#0d1117] via-[#111827] to-[#1e1e2f] text-white">
+  <div class="container mx-auto px-6 py-20 flex flex-col md:flex-row items-center justify-between">
+
+    <!-- Left -->
+    <div class="md:w-1/2 space-y-6 text-center md:text-left">
+      <span class="text-indigo-400 font-semibold text-lg">Hello 👋, I'm Ahmed Harfoush</span>
+      <h1 class="text-5xl sm:text-6xl font-bold leading-tight">
+        I Build <span class="text-indigo-500">AI Solutions</span> <br />
+        That Create <span class="text-emerald-400">Impact</span>
+      </h1>
+      <p class="text-gray-300 text-lg">
+        Junior AI Engineer | Data Science & Machine Learning Enthusiast 🚀
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 mt-6 justify-center md:justify-start">
+        <a href="#contact" class="px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold transition">Let's Talk</a>
+        <a href="#projects" class="px-6 py-3 rounded-xl border border-gray-500 hover:bg-gray-700 text-white font-semibold transition">Portfolio</a>
+        <a href="Image/Your_new_CV.pdf" download class="px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold transition">Download CV</a>
+      </div>
+    </div>
+
+    <!-- Right -->
+    <div class="md:w-1/2 mt-10 md:mt-0 flex flex-col items-center relative">
+      <div class="relative">
+        <img src="Image/Ahmed.jpg" alt="Ahmed Harfoush" class="rounded-2xl shadow-2xl w-80 md:w-96 border-4 border-indigo-500">
+        <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-indigo-600 rounded-full shadow-lg px-4 py-2 text-sm font-medium cursor-pointer hover:bg-indigo-700">
+          Learn About Me
+        </div>
+      </div>
+      <p class="mt-6 text-gray-300 italic">"AI is not just about technology, it’s about empowering people."</p>
+    </div>
+  </div>
+</section>
+
+<!-- About Me -->
+<div id="about-me" class="section bg-[#0d1117]">
+  <div class="container">
+    <h2 class="text-4xl sm:text-5xl font-bold text-white text-center mb-12">About Me</h2>
+    <div class="flex flex-col md:flex-row items-center gap-8 md:gap-16">
+      <div class="md:w-1/3">
+        <img src="Image/about me.jpeg" alt="Ahmed Harfoush" class="w-full rounded-full border-4 border-[#21262d] shadow-2xl">
+      </div>
+      <div class="md:w-2/3 mt-8 md:mt-0 space-y-4 text-lg sm:text-xl text-gray-300 leading-relaxed">
+        <p>🎓 <span class="text-white font-semibold">Junior at Faculty of Computers & Informatics – Al Ryadal University (2023 – 2027)</span></p>
+        <p>🏆 <span class="text-white font-semibold">2x ECPC Finalist</span></p>
+        <p>👨‍💻 Passionate about solving problems using <span class="text-white font-semibold">Artificial Intelligence</span>.</p>
+        <p>🔭 Interests: <span class="text-white">Machine Learning, Deep Learning, Computer Vision, Data Science</span>.</p>
+        <p>📚 Currently shaping my path as an <span class="text-white font-semibold">AI Engineer</span>.</p>
+        <p>🤓 Always eager to <span class="text-white">learn new things</span> and explore emerging technologies.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Skills -->
+<div id="skills" class="section bg-[#161b22]">
+  <div class="container text-center">
+    <h2 class="text-4xl sm:text-5xl font-bold text-white mb-12">🛠️ My Skills</h2>
+    <h3 class="text-2xl font-semibold text-white mb-4">🤖 Artificial Intelligence & Machine Learning</h3>
+    <p class="flex flex-wrap justify-center gap-3 mb-8">
+      <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=plastic&logo=tensorflow&logoColor=white">
+      <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=plastic&logo=pytorch&logoColor=white">
+      <img alt="Scikit-learn" src="https://img.shields.io/badge/Scikit--learn-%23F7931E.svg?style=plastic&logo=scikit-learn&logoColor=white">
+      <img alt="Keras" src="https://img.shields.io/badge/Keras-%23D00000.svg?style=plastic&logo=keras&logoColor=white">
+    </p>
+    <h3 class="text-2xl font-semibold text-white mb-4">📊 Data Science & Analytics</h3>
+    <p class="flex flex-wrap justify-center gap-3 mb-8">
+      <img alt="Pandas" src="https://img.shields.io/badge/Pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white">
+      <img alt="NumPy" src="https://img.shields.io/badge/Numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white">
+      <img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=plastic&logo=plotly&logoColor=black">
+      <img alt="SQL" src="https://img.shields.io/badge/SQL-%230074C1.svg?style=plastic&logo=postgresql&logoColor=white">
+    </p>
+    <h3 class="text-2xl font-semibold text-white mb-4">🖥️ Programming Languages</h3>
+    <p class="flex flex-wrap justify-center gap-3 mb-8">
+      <img alt="Python" src="https://img.shields.io/badge/Python-%2314354C.svg?style=plastic&logo=python&logoColor=white">
+      <img alt="C++" src="https://img.shields.io/badge/C++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white">
+      <img alt="Java" src="https://img.shields.io/badge/Java-%23007396.svg?style=plastic&logo=java&logoColor=white">
+      <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-%230095D5.svg?style=plastic&logo=kotlin&logoColor=white">
+    </p>
+    <div class="mt-12">
+      <img alt="Quote" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&animation=grow_out_in&quoteCategory=programming" class="mx-auto">
+    </div>
+  </div>
+</div>
+
+<!-- Projects -->
+<div id="projects" class="section bg-[#161b22]">
+  <div class="container">
+    <h2 class="text-4xl sm:text-5xl font-bold text-white text-center mb-12">Project Portfolio</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <!-- Repeat Projects -->
+      <a href="https://github.com/Ahmed0Harfoush/Cancer" target="_blank" class="block">
+        <div class="p-6 rounded-2xl bg-[#0d1117] border border-[#21262d] flex flex-col items-center text-center hover:bg-gray-800 transition">
+          <img src="Image/cancer.jpeg" alt="Cancer Research" class="w-24 h-24 mb-4 rounded-full">
+          <h3 class="text-xl font-semibold mb-2 text-white">Cancer Research</h3>
+          <p class="text-sm text-gray-400">Utilizing ML to analyze medical data and predict cancer risks.</p>
+        </div>
+      </a>
+      <a href="https://github.com/Ahmed0Harfoush/Egypt-Housing-Prices" target="_blank" class="block">
+        <div class="p-6 rounded-2xl bg-[#0d1117] border border-[#21262d] flex flex-col items-center text-center hover:bg-gray-800 transition">
+          <img src="Image/House price.jpeg" alt="Housing Prices" class="w-24 h-24 mb-4 rounded-full">
+          <h3 class="text-xl font-semibold mb-2 text-white">Housing Prices Prediction</h3>
+          <p class="text-sm text-gray-400">Forecasting housing prices based on real estate factors.</p>
+        </div>
+      </a>
+      <a href="https://github.com/Ahmed0Harfoush/Medical-Abstract-App" target="_blank" class="block">
+        <div class="p-6 rounded-2xl bg-[#0d1117] border border-[#21262d] flex flex-col items-center text-center hover:bg-gray-800 transition">
+          <img src="Image/Medical app.jpeg" alt="Medical Abstract App" class="w-24 h-24 mb-4 rounded-full">
+          <h3 class="text-xl font-semibold mb-2 text-white">Medical Abstract App</h3>
+          <p class="text-sm text-gray-400">Analyzing & summarizing research abstracts using NLP.</p>
+        </div>
+      </a>
+      <a href="https://github.com/Ahmed0Harfoush/-Face-Recognition-Attendance-System-" target="_blank" class="block">
+        <div class="p-6 rounded-2xl bg-[#0d1117] border border-[#21262d] flex flex-col items-center text-center hover:bg-gray-800 transition">
+          <img src="Image/Face Attendence.jpeg" alt="Face Recognition" class="w-24 h-24 mb-4 rounded-full">
+          <h3 class="text-xl font-semibold mb-2 text-white">Face Recognition Attendance</h3>
+          <p class="text-sm text-gray-400">Automated attendance system using face recognition.</p>
+        </div>
+      </a>
+      <a href="https://github.com/Ahmed0Harfoush/-Control-Elements-with-Hand-Gestures-Using-AI-" target="_blank" class="block">
+        <div class="p-6 rounded-2xl bg-[#0d1117] border border-[#21262d] flex flex-col items-center text-center hover:bg-gray-800 transition">
+          <img src="Image/volum.jpeg" alt="Gesture Volume Control" class="w-24 h-24 mb-4 rounded-full">
+          <h3 class="text-xl font-semibold mb-2 text-white">Gesture-Based Volume Control</h3>
+          <p class="text-sm text-gray-400">Controlling volume with hand gestures.</p>
+        </div>
+      </a>
+      <a href="https://github.com/Ahmed0Harfoush/Coffee-Health" target="_blank" class="block">
+        <div class="p-6 rounded-2xl bg-[#0d1117] border border-[#21262d] flex flex-col items-center text-center hover:bg-gray-800 transition">
+          <img src="Image/Healty coffee.jpeg" alt="Coffee-Health Research" class="w-24 h-24 mb-4 rounded-full">
+          <h3 class="text-xl font-semibold mb-2 text-white">Coffee-Health</h3>
+          <p class="text-sm text-gray-400">Exploring coffee consumption & health metrics.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+    <div id="contact" class="section bg-[#0d1117] text-center">
+    <div class="container">
+        <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">Thank You</h2>
+        <p class="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
+            For more information or collaboration inquiries, please feel free to reach out.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-6">
+            
+            <!-- Mobile Phone Link -->
+            <a href="tel:+201553792360" class="flex items-center justify-center p-4 bg-[#161b22] border border-[#21262d] rounded-2xl hover:bg-gray-800 transition-colors duration-200">
+                <svg class="w-6 h-6 mr-2 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.5l1.5 4.5L10 9l-2 1.5c.6 1.2 1.8 2.4 3 3l1.5-2 1.5-2 4.5 1.5V19a2 2 0 01-2 2H5a2 2 0 01-2-2z"></path></svg>
+                <span class="text-white">+20 155 379 2360</span>
+            </a>
+
+            <!-- WhatsApp Link -->
+            <a href="https://wa.me/qr/CG5YSP24ITTCO1" target="_blank" class="flex items-center justify-center p-4 bg-green-600 border border-[#21262d] rounded-2xl hover:bg-green-700 transition-colors duration-200">
+                <svg class="w-6 h-6 mr-2 text-white" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 3.5A10.5 10.5 0 009.25 20.75L3 22l1.25-6.25A10.5 10.5 0 1020 3.5zm-8.5 16a8.5 8.5 0 01-4.3-1.2l-.3-.2-2.5.6.6-2.5-.2-.3A8.5 8.5 0 1111.5 19.5zm4.3-6.7c-.2-.1-1.3-.6-1.5-.7s-.4-.1-.6.1c-.2.2-.7.7-.8.8-.1.1-.3.2-.5.1s-1.1-.4-2.1-1.3c-.8-.7-1.3-1.5-1.5-1.7-.2-.3 0-.4.1-.5.1-.1.2-.3.3-.4s.1-.2.2-.3c.1-.1.1-.2.2-.3.1-.1.1-.3 0-.4s-.6-1.5-.8-2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.7-.8 1.7s.8 2 1 .2c.3 1.2 1.5 2.4 1.7 2.6.2.2 3 4.6 7.4 6.1.3.1.5.1.7.1.2 0 .5 0 .7-.3.2-.2 1.3-1.2 1.5-1.5.2-.3.2-.6.1-.7-.1-.2-.2-.3-.4-.4z"/>
+                </svg>
+                <span class="text-white">WhatsApp</span>
+            </a>
+
+            <!-- GitHub Link -->
+            <a href="https://github.com/Ahmed0Harfoush" target="_blank" class="flex items-center justify-center p-4 bg-[#161b22] border border-[#21262d] rounded-2xl hover:bg-gray-800 transition-colors duration-200">
+                <svg class="w-6 h-6 mr-2 text-white" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.343 3.43 9.8 8.204 11.385.6.11.82-.257.82-.577 0-.285-.01-1.04-.015-2.04-3.338.725-4.041-1.61-4.041-1.61-.543-1.388-1.326-1.755-1.326-1.755-1.08-.737.08-.722.08-.722 1.2.086 1.838 1.238 1.838 1.238 1.07 1.835 2.809 1.305 3.493.998.109-.775.424-1.305.777-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38.465-2.38-1.205-2.903.45-6.043.45-6.043 1.085-.303 3.55-.262 3.55-.262.29-.854 1.202-1.474 1.202-1.474 0 0 2.842 0 4.254 0 0 0 .91 1.05.298 1.474s-.26.65-1.202 1.474l-.262.29c.75.29 1.49.56 2.01.85s.89.65 1.2 1.474l-.262-.29c-1.205-2.903.45-6.043.45-6.043 1.085-.303 3.55-.262 3.55-.262s.91 1.05.298 1.474z"></path></svg>
+                <span class="text-white">Ahmed0Harfoush</span>
+            </a>
+
+            <!-- Email Link -->
+            <a href="mailto:ahmdltl972@gmail.com" class="flex items-center justify-center p-4 bg-[#161b22] border border-[#21262d] rounded-2xl hover:bg-gray-800 transition-colors duration-200">
+                <svg class="w-6 h-6 mr-2 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                <span class="text-white">ahmdltl972@gmail.com</span>
+            </a>
+
+            <!-- LinkedIn Link -->
+            <a href="https://www.linkedin.com/in/ahmed-harfoush-7b623a28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="flex items-center justify-center p-4 bg-[#161b22] border border-[#21262d] rounded-2xl hover:bg-gray-800 transition-colors duration-200">
+                <svg class="w-6 h-6 mr-2 text-white" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.761s.784-1.76 1.75-1.76 1.75.79 1.75 1.76-.784 1.761-1.75 1.761zm13.5 12.268h-3v-5.604c0-3.368-4.01-3.113-4.01 0v5.604h-3v-11h3v1.765c1.396-2.586 7.01-2.355 7.01 3.053v6.182z"></path>
+                </svg>
+                <span class="text-white">Ahmed Harfoush</span>
+            </a>
+
+
+        </div>
+    </div>
+
+</body>
+</html>
